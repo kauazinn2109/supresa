@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+}
+
+.div1{
+    justify-content: center;
+    text-align: center;
+    background: #99a2cc;
+    background: radial-gradient(circle, rgba(153, 162, 204, 1) 0%, rgba(224, 108, 131, 1) 100%);
+    
+}
+.div1 H1{
+    padding-top: 100px;
+    color: darkred;
+    padding-bottom: 10px;
+    font-size: 3.5dvw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.div1 p{
+    color: lavender;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+}
+#ft1{
+    margin: 50px;
+    max-width: 750px;
+    max-height: fit-content;
+    border-radius: 5%;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.div2{
+   background: #f2d0d9;
+background: radial-gradient(circle, rgba(242, 208, 217, 1) 0%, rgba(219, 197, 202, 1) 100%);
+    justify-content: center;
+    text-align: center;
+}
+
+.div2 h2{
+    padding-top: 100px;
+    color: crimson;
+    padding-bottom: 10px;
+    font-size: 3.5dvw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.div2 p{
+    color: fuchsia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.cards{
+  display: flex;
+  gap: 20px; 
+  justify-content: center; 
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card{
+  width: 250px;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.card img{
+  width: 30%;
+  border-radius: 8px;
+}
+
+.card h3{
+  margin: 10px 0;
+  color: crimson;
+  font-size: larger;
+}
+
+.card p{
+    color: gray;
+    font-size: medium;
+}
+
+.fts img{
+    max-width:300px;
+    height: 400px;
+    margin: 20px 100px 30px 20px;
+    border-radius: 10%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.fts h1{
+    font-size: 3dvw;
+    font-weight: bold;
+    color: crimson;
+    padding-bottom: 20px;
+}
+
+.div3{
+    background: #db587b;
+background: radial-gradient(circle, rgba(219, 88, 123, 1) 0%, rgba(230, 165, 180, 1) 100%);
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.carta{
+    max-width: 800px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.carta h3{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+.carta p{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    font-size: large;
+}
+.carta h4{
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
